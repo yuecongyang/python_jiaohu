@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>标题</title>
+
+    <script>
+        window.onload = initForm;
+
+        function initForm() {
+            var osel = document.getElementById("sel");
+            osel.selectedIndex = 0;
+            osel.onchange = jumpPage;
+        }
+
+        function jumpPage() {
+            var osel = document.getElementById("sel");
+            var newURL = osel.options [osel.selectedIndex].value;
+            if (newURL != "") {
+                window.location.href = newURL;
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+<h2>{{ the_title }}</h2>
+<form method="POST" action="/renkou">
+    <p><input name="the_region_selected_1" value='抚养比与人口自然增长率的对比分析' type='SUBMIT'></p>
+</form>
+
+<form method="POST" action="/shiye">
+    <p><input name="the_region_selected_2" value='失业率与抚养比的对比分析' type='SUBMIT'></p>
+</form>
+
+<form method="POST" action="/beijing">
+    <p><input name="the_region_selected_3" value='北京市居民消费水平与抚养比的对比分析' type='SUBMIT'></p>
+</form>
+{{ the_res|safe }}
+</body>
+</html>
