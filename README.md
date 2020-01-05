@@ -37,7 +37,6 @@
 
 2.**具体操作**：  
 首先每一个视图函数都要用pandas模块pd.read_csv（）读取每个表对应的csv文件数据，然后用cufflinks和plotly模块清理数据。
-
 用@app.route(路由规则) 的方式绑定可视化视图函数, route() 会告诉告诉 Flask 什么样的URL 能触发我们的函数，就像项目里的@app.route('/entry')。  
 用with和open标签连接17级交互图表的html，用title标签定义名称。最后return render_template会根据后面传入的参数，对html进行修改渲染。  
 
