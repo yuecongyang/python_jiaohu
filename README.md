@@ -8,8 +8,8 @@
 * 学号：181013078  
 
 ### :link:**python项目查看**：
-* [项目代码详情GitHub_URL](https://github.com/guiyueYan/python-flask/tree/master/python-web)
-* [pythonanywhere个人部署URL](http://yuiane.pythonanywhere.com/)  
+* [GitHub_URL](https://github.com/yuecongyang/python_jiaohu)
+* [pythonanywhere个人部署URL](http://zerow.pythonanywhere.com)  
 
 ### :thought_balloon:项目主要URL及功能如下：  
 
