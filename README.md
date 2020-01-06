@@ -2,16 +2,16 @@
   <h1>Python与交互式数据可视化-技术文档之总结说明</h1>
 </div>
 
-### :sun_with_face:**个人信息**：
+### 个人信息：
 * 姓名：杨悦聪
 * 班级：网新3班
 * 学号：181013078  
 
-### :link:**python项目查看**：
+### python项目查看：
 * [GitHub_URL](https://github.com/yuecongyang/python_jiaohu)
 * [pythonanywhere个人部署URL](http://zerow.pythonanywhere.com)  
 
-### :thought_balloon:项目主要URL及功能如下：  
+### 项目主要URL及功能如下：  
 
     /entry 首页 展示三个跳转按钮  
 
@@ -21,7 +21,7 @@
 
     /beijing 展示北京市居民消费水平与抚养比的对比分析 
 
-### :heavy_check_mark:**数据传递描述**：  
+### 数据传递描述：  
 
 #### HTML档描述：
 1.**布局**：用link标签连接到hf.css，奠定基本格式。
